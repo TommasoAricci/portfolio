@@ -1,31 +1,35 @@
+    
+    
+    
+    
     *{
-    margin:0;
-    padding:0
-    box-sizing: border-box;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+        margin:0;
+        padding:0
+        box-sizing: border-box;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
 
    nav{
-    width:100%;
-    background:#216477;
-    position:fixed;
-    top:0;
-    height:80px;
-    display:flex;
-    justify-content:center;
-    align-items: center;
-   }
+        width:100%;
+        background:#216477;
+        position:fixed;
+        top:0;
+        height:80px;
+        display:flex;
+        justify-content:center;
+        align-items: center;
+    }
 
-   nav li{
-    display:inline;
-    padding: 20px;
-   }
+    nav li{
+        display:inline;
+        padding: 20px;
+    }
 
    .pulsante-header{
-    color: white;
-    cursor: pointer;
-    width: 90px;
-    height: 35px;
+        color: white;
+        cursor: pointer;
+        width: 90px;
+        height: 35px;
     }
 
     #nav-button{
@@ -33,69 +37,69 @@
     }
 
     label{
-    display:none;
+        display:none;
     }
 
     .pulsante-header:hover{
-    background-color: rgba(255, 255, 255, 0.396);
-    border-radius: 3px;
-    transition: 0.5s;  
+        background-color: rgba(255, 255, 255, 0.396);
+        border-radius: 3px;
+        transition: 0.5s;  
     }
 
     .pulsante-header:active{
-    background-color: rgba(255, 255, 255, 0.073);
-    transition: 0.1s;
+        background-color: rgba(255, 255, 255, 0.073);
+        transition: 0.1s;
     }
 
   @media only screen and (max-width: 768px){
        
        nav ul{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 0;
 
-        position:absolute;                  
-        top:80px;
-        width:100%;
-        background-color:#216477;
+            position:absolute;                  
+            top:80px;
+            width:100%;
+            background-color:#216477;
 
-        height:0;
-        overflow:hidden;
-        transition:height 0.5s;
-       }
+            height:0;
+            overflow:hidden;
+            transition:height 0.5s;
+        }
        
        label{
-        color: white;
-        display:block;
-        margin: auto;
-        padding:10px 20px;
-        font-size:30px;
-        cursor:pointer;
-       }
+            color: white;
+            display:block;
+            margin: auto;
+            padding:10px 20px;
+            font-size:30px;
+            cursor:pointer;
+        }
        
        label:active{
-        transform: scale(0.9);
-        transform-origin: center;
-        background-color: rgba(255, 255, 255, 0.396);
-        border-radius: 3px;
-        transition: 0.2s;  
-       }
+            transform: scale(0.9);
+            transform-origin: center;
+            background-color: rgba(255, 255, 255, 0.396);
+            border-radius: 3px;
+            transition: 0.2s;
+        }
 
        .pulsante-header{
-        width: 200px;
-        height: 65px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-       }
+            width: 200px;
+            height: 65px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
        #nav-button:checked ~ ul{
-        padding-bottom: 20px;
-        height:250px;
-        transition: height 0.5s;
-       }
+            padding-bottom: 20px;
+            height:250px;
+            transition: height 0.5s;
+        }
 
     }
    
