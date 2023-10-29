@@ -1,23 +1,40 @@
 
 
-@media only screen and (min-width: 501px) and (max-width: 768px) {           /*fino a smartphone grandi/
+@media only screen and (min-width: 501px) and (max-width: 768px) {           /*fino a smartphone grandi*/
 
-
+    .header-body{
+        display: block;
+        width: 500;
+        }
 
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1023px){              /*tablet*/
     
-        
+    .header-body{
+        display: block;
+        width: 500px;
+        }
 }
 
 @media only screen and (min-width: 1024px){                                  /*latop e monitor grandi*/
 
     .header-body{
         display: block;
-        width: 650px;
-        }
-    
-        
+        width: 700px;
+    }
 
+
+    .contenuto .nome h1{
+        font-size: 60px;
+    }
+
+    .contenuto .nome h2{
+        font-size: 40px;
+    }
+
+    .contenuto .secondo-blocco .primo{
+        width: 400px;
+    }
 }
+

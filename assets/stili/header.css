@@ -33,7 +33,7 @@
     .pulsante-header:hover{
         background-color: rgba(255, 255, 255, 0.396);
         border-radius: 3px;
-        transition: 0.5s;  
+        transition: 0.5s;
     }
 
     .pulsante-header:active{
@@ -86,7 +86,6 @@
             align-items: center;
             justify-content: center;
             font-weight: 100;
-
             border-bottom: 1px solid white;
         }
 
