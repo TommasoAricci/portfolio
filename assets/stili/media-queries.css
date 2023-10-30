@@ -6,14 +6,20 @@
         display: block;
         width: 500;
         }
-
+    .contenuto .pulsante-header{
+        width: 300px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1023px){              /*tablet*/
     
     .header-body{
         display: block;
-        width: 500px;
+        width: 600px;
+        }
+
+        .contenuto .pulsante-header{
+            width: 300px;
         }
 }
 
@@ -21,7 +27,7 @@
 
     .header-body{
         display: block;
-        width: 700px;
+        width: 800px;
     }
 
 
@@ -35,6 +41,10 @@
 
     .contenuto .secondo-blocco .primo{
         width: 400px;
+    }
+
+    .contenuto .pulsante-header{
+        width: 300px;
     }
 }
 

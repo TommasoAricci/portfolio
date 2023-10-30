@@ -27,7 +27,7 @@
     .pulsante-header{
         color: white;
         cursor: pointer;
-        font-weight: 100;
+        font-weight: 400;
     }
 
     .pulsante-header:hover{
@@ -41,7 +41,7 @@
         transition: 0.1s;
     }
 
-  @media only screen and (max-width: 768px){
+  @media only screen and (max-width: 1023px){
        
        nav ul{
             display: flex;
@@ -85,7 +85,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-weight: 100;
+            font-weight: 400;
             border-bottom: 1px solid white;
         }
 
@@ -101,7 +101,7 @@
 
         nav .menu-word{
             font-size: 15px;
-            font-weight: 100;
+            font-weight: 400;
             padding-right: 2px;
         }
 
