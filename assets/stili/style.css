@@ -52,6 +52,7 @@ body{
     padding: 0px;
     line-height: 22px;
     padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .contenuto p strong{
@@ -89,4 +90,14 @@ body{
     justify-content: center;
     font-weight: 400;
     border:  1px solid rgb(216, 232, 247);
+}
+
+.contenuto .titolo-pulsante{
+    padding-top: 5px;
+}
+
+.contenuto .pulsante{
+    margin-top: 60px;
+    border-radius: 3px;
+    margin-bottom: 60px;
 }

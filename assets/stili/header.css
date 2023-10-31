@@ -24,10 +24,29 @@
         display:none;
     }
 
+    nav ul{
+        display: flex;
+    }
+
+    nav a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+    }
+
     .pulsante-header{
         color: white;
         cursor: pointer;
         font-weight: 400;
+    }
+
+    .pulsante-header div{
+        padding-top: 5px;
+    }
+
+    .nav ul a div{
+        text-decoration: none;
     }
 
     .pulsante-header:hover{
@@ -86,11 +105,14 @@
             align-items: center;
             justify-content: center;
             font-weight: 400;
-            border-bottom: 1px solid white;
         }
 
         .pulsante-header:first-child{
             border-top: 1px solid white;
+        }
+
+        nav ul a:last-child .pulsante-header{
+            border-bottom: 1px solid white;
         }
 
        #nav-button:checked ~ ul{
@@ -103,6 +125,7 @@
             font-size: 15px;
             font-weight: 400;
             padding-right: 2px;
+            padding-top: 3px;
         }
 
         nav .menu-icon{
