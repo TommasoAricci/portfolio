@@ -46,5 +46,13 @@
     .contenuto .pulsante-header{
         width: 300px;
     }
+
+    .contenuto .secondo-blocco h2{
+        font-size:40px;
+    }
+
+    .contenuto .terzo-blocco h2{
+        font-size: 40px;
+    }
 }
 

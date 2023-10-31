@@ -41,7 +41,7 @@ body{
 
 .contenuto .descrizione h2{
     color: #216477;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 200;
     padding-top: 20px;
 }
@@ -92,12 +92,30 @@ body{
     border:  1px solid rgb(216, 232, 247);
 }
 
-.contenuto .titolo-pulsante{
-    padding-top: 5px;
+.contenuto .terzo-blocco h2{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: rgb(216, 232, 247);
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 60px;
 }
 
-.contenuto .pulsante{
-    margin-top: 60px;
-    border-radius: 3px;
-    margin-bottom: 60px;
+.contenuto .skills{
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    
+}
+
+.contenuto .skills .pulsante-skills{
+    height: 80px;
+    width: 80px;
+    margin: 20px;
+    background-color: #216477;
+    border: 1px solid black;
 }
