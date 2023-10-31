@@ -13,6 +13,7 @@ body{
     background-color: #216477;
 }
 
+
 .contenuto{
     display: flex;
     flex-direction: column;
@@ -23,6 +24,8 @@ body{
     margin-top: 140px;
 }
 
+/*header-titolo*/
+
 .nome{
     text-align: center;
 }
@@ -30,7 +33,7 @@ body{
 .contenuto .nome h1{
     color: rgb(216, 232, 247);
     font-size: 50px;
-    font-weight: 100;
+    font-weight: 600;
 }
 
 .contenuto .nome h2{
@@ -39,30 +42,28 @@ body{
     font-weight: 100;
 }
 
+/*Chi sono*/
+
 .contenuto .descrizione h2{
-    color: #216477;
+    color: rgb(216, 232, 247);
     font-size: 30px;
-    font-weight: 200;
+    font-weight: 900;
     padding-top: 20px;
 }
 
 .contenuto p{
     font-size:18px;
     font-weight: 200;
-    padding: 0px;
     line-height: 22px;
     padding-top: 10px;
     padding-bottom: 15px;
-}
-
-.contenuto p strong{
-    font-weight: 500;
+    color: rgb(216, 232, 247);
 }
 
 .header-body{
     display: block;
     margin: auto;
-    background-color: rgb(216, 232, 247);
+    background-color: #267287;
     padding: 20px;
     border-radius: 6px;
     text-align: center;
@@ -71,7 +72,7 @@ body{
 }
 
 .contenuto .secondo-blocco .primo{
-    background-color: rgba(216, 232, 247, 0);
+    background-color: rgba(216, 232, 247, 0);       /*immagina mia*/
     width: 320px;
     
 }
@@ -82,15 +83,7 @@ body{
     margin-bottom: -24px;
 }
 
-.contenuto .pulsante-header{
-    width: 70%;
-    height: 65px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 400;
-    border:  1px solid rgb(216, 232, 247);
-}
+/*le mie skills*/
 
 .contenuto .terzo-blocco h2{
     display: block;
@@ -98,24 +91,72 @@ body{
     text-align: center;
     color: rgb(216, 232, 247);
     font-size: 30px;
-    font-weight: 200;
+    font-weight: 900;
     margin-top: 60px;
 }
 
+.contenuto .skills-container{
+    display: flex;
+    justify-content: center;
+}
+
 .contenuto .skills{
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 50px;
-    
+    margin-top: 40px;
+    width: 100%;
+}
+
+.contenuto .skills .titolo{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+    color: rgb(216, 232, 247);
 }
 
 .contenuto .skills .pulsante-skills{
-    height: 80px;
-    width: 80px;
-    margin: 20px;
-    background-color: #216477;
-    border: 1px solid black;
+    height: 120px;
+    width: 120px;
+    margin: 6px;
+    background-color:#267287;
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenuto .skills .pulsante-skills:hover{
+    background-color: rgba(255, 255, 255, 0.396);
+}
+
+.contenuto .terzo-blocco .skills img{
+    width: 60%;
+}
+
+
+
+
+
+
+
+
+.contenuto .pulsante-header{
+    
+    background-color: #267287;
+    width: 70%;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 200;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contenuto .pulsante-header:hover{
+    background-color: rgba(255, 255, 255, 0.396);
 }

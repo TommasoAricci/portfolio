@@ -9,6 +9,10 @@
     .contenuto .pulsante-header{
         width: 300px;
     }
+
+    .contenuto .skills{
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1023px){              /*tablet*/
@@ -21,6 +25,10 @@
         .contenuto .pulsante-header{
             width: 300px;
         }
+
+        .contenuto .skills{
+            width: 100%;
+        }
 }
 
 @media only screen and (min-width: 1024px){                                  /*latop e monitor grandi*/
@@ -29,7 +37,6 @@
         display: block;
         width: 800px;
     }
-
 
     .contenuto .nome h1{
         font-size: 60px;
@@ -40,7 +47,7 @@
     }
 
     .contenuto .secondo-blocco .primo{
-        width: 400px;
+        width: 350px;
     }
 
     .contenuto .pulsante-header{
@@ -54,5 +61,15 @@
     .contenuto .terzo-blocco h2{
         font-size: 40px;
     }
+
+    .contenuto .skills .pulsante-skills{
+        width: 140px;
+        height: 140px;
+    }
+
+    .contenuto .skills{
+        width: 100%;
+    }
+ 
 }
 
