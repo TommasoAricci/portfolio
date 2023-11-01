@@ -70,6 +70,10 @@
     .contenuto .skills{
         width: 100%;
     }
+
+    .contenuto-cv .cv-box p{
+        width: 600px;
+    }
  
 }
 
