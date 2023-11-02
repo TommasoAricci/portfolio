@@ -1,9 +1,9 @@
 .contenuto-cv{
     margin-top: 140px;
-    color: orange;
 }
 
 .contenuto-cv h2{
+    color: orange;
     text-align: center;
     font-size: 30px;
     font-weight: 900;
@@ -31,8 +31,12 @@
     z-index: 10;
 }
 
+.cronologia{
+    position: relative;
+}
+
 .linea{
-    height: 800px;
+    height: 95%;
     position: absolute;
     left: 50%;
     border: 2px solid orange;
@@ -40,3 +44,16 @@
     border-radius: 3px;
     z-index: 9;
 }
+
+.contenuto-cv .lavori{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.cronologia{
+    margin-bottom: 60px;
+}
+

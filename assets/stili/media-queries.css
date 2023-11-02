@@ -13,17 +13,25 @@
     .contenuto .skills{
         width: 100%;
     }
+
+    .pulsante{
+        width: 400px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1023px){              /*tablet*/
     
     .header-body{
         display: block;
-        width: 600px;
+        width: 700px;
         }
 
         .contenuto .pulsante-header{
             width: 300px;
+        }
+
+        .pulsante{
+            width: 400px;
         }
 
         .contenuto .skills{
@@ -35,7 +43,7 @@
 
     .header-body{
         display: block;
-        width: 800px;
+        width: 1000px;
     }
 
     .contenuto .nome h1{
@@ -75,5 +83,12 @@
         width: 600px;
     }
  
+    .pulsante{
+        width: 400px;
+    }
+
+    .contenuto .skills .titolo{
+        font-size: 20px;
+    }
 }
 

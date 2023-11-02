@@ -86,6 +86,10 @@ body{
 
 /*le mie skills*/
 
+.terzo-blocco{
+    margin-bottom: 60px;
+}
+
 .contenuto .terzo-blocco h2{
     display: block;
     margin: auto;
@@ -138,8 +142,7 @@ body{
     width: 60%;
 }
 
-.contenuto .pulsante-header{
-    
+.pulsante{
     background-color: #267287;
     width: 70%;
     height: 65px;
@@ -147,10 +150,16 @@ body{
     align-items: center;
     justify-content: center;
     font-weight: 200;
-    margin-top: 50px;
     margin-bottom: 50px;
+    font-weight: 900;
+    border-radius: 3px;
+    color: rgb(216, 232, 247);
 }
 
-.contenuto .pulsante-header:hover{
-    background-color: rgba(255, 255, 255, 0.396);
+.titolo-pulsante{
+    margin-top:5px;
+}
+
+.pulsante:hover{
+    background-color: rgb(216, 232, 247);
 }
