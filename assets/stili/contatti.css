@@ -1,0 +1,22 @@
+
+.contenuto-contatti{
+    margin-top: 140px;
+}
+
+.contenuto-contatti h2{
+    color: orange;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.form-nome input{
+    font-family: Josefin Sans;
+    font-size: 18px;
+    height: 40px;
+    width: 300px;
+}
+
+.form-nome input::placeholder{
+    margin-left: 10px;
+}
