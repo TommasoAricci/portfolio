@@ -15,7 +15,7 @@
     }
 
     .pulsante{
-        width: 400px;
+        width: 300px;
     }
 }
 
@@ -31,7 +31,7 @@
         }
 
         .pulsante{
-            width: 400px;
+            width: 320px;
         }
 
         .contenuto .skills{
@@ -45,6 +45,8 @@
         display: block;
         width: 1000px;
     }
+
+    /*chi sono*/
 
     .contenuto .nome h1{
         font-size: 60px;
@@ -79,16 +81,40 @@
         width: 100%;
     }
 
+    /*cv*/
+
+    .contenuto-cv h2{
+        font-size: 40px;
+    }
+
     .contenuto-cv .cv-box p{
         width: 600px;
     }
  
     .pulsante{
-        width: 400px;
+        width: 320px;
     }
 
     .contenuto .skills .titolo{
         font-size: 20px;
+    }
+
+    .cv-box{
+        width:700px
+    }
+
+    .contenuto-cv .lavori{
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .contenuto-cv .lavori .articoli, .medit{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .lavori img{
+        width: 300px;
     }
 }
 
