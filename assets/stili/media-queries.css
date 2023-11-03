@@ -17,6 +17,11 @@
     .pulsante{
         width: 300px;
     }
+
+    .form{
+        display: flex;
+        max-width: 500px;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1023px){              /*tablet*/
@@ -36,6 +41,15 @@
 
         .contenuto .skills{
             width: 100%;
+        }
+
+        .form-mail{
+            width: 600px;
+        }
+
+        .form{
+            display: flex;
+            width: 500px;
         }
 }
 
@@ -123,7 +137,14 @@
         font-size: 40px;
     }
 
+    .form-mail{
+        width: 600px;
+    }
 
+    .form{
+        display: flex;
+        width: 500px;
+    }
 
 
 }

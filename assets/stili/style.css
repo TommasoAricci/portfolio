@@ -142,9 +142,11 @@ body{
     width: 60%;
 }
 
+/*pulsante*/
+
 .pulsante{
     border: 1px solid rgb(216, 232, 247);
-    width: 70%;
+    width: 230px;
     height: 65px;
     display: flex;
     align-items: center;
