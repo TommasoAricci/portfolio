@@ -8,6 +8,9 @@
     text-align: center;
     font-size: 30px;
     font-weight: 900;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 35px;
 }
 
 .form{
@@ -15,8 +18,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
+    background-color: #216477;
+    padding: 0;
 }
 
 .form-nome input{
@@ -81,4 +85,28 @@ textarea::placeholder{
 
 .pulsante-form:active{
     background-color: rgb(218, 142, 3);
+}
+
+/*social*/
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pulsante-social{
+    margin-left: 9px;
+    margin-right: 9px;
+    width: 55px;
+}
+
+.contenuto-contatti h3{
+    text-align: center;
+    color: rgb(216, 232, 247);
+}
+
+.socialcont{
+    width: 400px;
+    margin-bottom: 50px;
 }

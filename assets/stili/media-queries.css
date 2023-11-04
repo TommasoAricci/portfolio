@@ -22,6 +22,16 @@
         display: flex;
         max-width: 500px;
     }
+
+    .contenuto-contatti h2{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .socialcont{
+        width: 400px;
+    }
+
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1023px){              /*tablet*/
@@ -51,13 +61,27 @@
             display: flex;
             width: 500px;
         }
+
+        .form-nome input{
+            width: 400px;
+        }
+    
+        .form-nome textarea{
+            width: 400px;
+            max-width: 400px;
+        }
+
+        .socialcont{
+            width: 400px;
+        }
+    
 }
 
 @media only screen and (min-width: 1024px){                                  /*latop e monitor grandi*/
 
     .header-body{
         display: block;
-        width: 1000px;
+        width: 900px;
     }
 
     /*chi sono*/
@@ -70,6 +94,11 @@
         font-size: 40px;
     }
 
+    .contenuto p{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
     .contenuto .secondo-blocco .primo{
         width: 350px;
     }
@@ -79,7 +108,7 @@
     }
 
     .contenuto .secondo-blocco h2{
-        font-size:40px;
+        font-size:30px;
     }
 
     .contenuto .terzo-blocco h2{
@@ -143,7 +172,20 @@
 
     .form{
         display: flex;
-        width: 500px;
+        width: 700px;
+    }
+
+    .form-nome input{
+        width: 400px;
+    }
+
+    .form-nome textarea{
+        width: 400px;
+        max-width: 400px;
+    }
+
+    .socialcont{
+        width: 400px;
     }
 
 
