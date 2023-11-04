@@ -52,6 +52,10 @@
     flex-direction: column;
 }
 
+.lavori a{
+    text-decoration: none;
+}
+
 .contenuto-cv .lavori{
     width: 80%;
     display: flex;
@@ -65,9 +69,8 @@
 }
 
 .lavori img{
-    width: 220px;
+    width: 250px;
     border-radius: 3px;
-    margin-bottom: 30px;
     box-shadow: 0px 1px 10px -5px rgba(0, 0, 0, 0.5);;
 }
 
@@ -77,4 +80,74 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+.terzo-blocco h2{
+    margin: 0;
+}
+
+.immagine{
+    margin-bottom: 50px;
+}
+
+.pulsantecont{
+    margin-bottom: 50px;
+}
+
+/*le mie skills*/
+
+.terzo-blocco{
+    margin-bottom: 60px;
+}
+
+.terzo-blocco h2{
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+.skills-container{
+    display: flex;
+    justify-content: center;
+}
+
+.skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.skills .titolo{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+    color: rgb(216, 232, 247);
+}
+
+.skills .pulsante-skills{
+    height: 120px;
+    width: 120px;
+    margin: 6px;
+    background-color:#267287;
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skills .pulsante-skills:hover{
+    background-color: rgba(255, 255, 255, 0.396);
+}
+
+.skills img{
+    width: 60%;
 }
