@@ -111,23 +111,11 @@
         font-size:30px;
     }
 
-    .contenuto .terzo-blocco h2{
-        font-size: 40px;
-    }
-
-    .skills .pulsante-skills{
-        width: 180px;
-        height: 160px;
-    }
-
-    .skills{
-        width: 100%;
-    }
 
     /*cv*/
 
     .contenuto-cv h2{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .contenuto-cv .cv-box p{
@@ -158,6 +146,25 @@
 
     .lavori img{
         width: 300px;
+    }
+
+    .contenuto .terzo-blocco h2{
+        font-size: 40px;
+    }
+
+    .skills .pulsante-skills{
+        width: 160px;
+        height: 140px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .skills{
+        width: 100%;
+    }
+
+    .pulsante-skills img{
+        width: 40%;
     }
 
     /*contatti*/

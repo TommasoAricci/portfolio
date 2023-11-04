@@ -132,8 +132,8 @@
 }
 
 .skills .pulsante-skills{
-    height: 120px;
-    width: 120px;
+    height: 110px;
+    width: 130px;
     margin: 6px;
     background-color:#267287;
     border-radius: 3px;
@@ -149,5 +149,5 @@
 }
 
 .skills img{
-    width: 60%;
+    width: 50%;
 }
