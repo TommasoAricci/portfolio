@@ -68,8 +68,17 @@ textarea::placeholder{
     border-radius: 3px;
     border: none;
     background-color: orange;
+    cursor: pointer;
+}
+
+.pulsante-form div{
+    margin-top: 3px;
+}
+
+.pulsante-form:hover{
+    background-color: rgb(246, 187, 76);
 }
 
 .pulsante-form:active{
-
+    background-color: rgb(218, 142, 3);
 }
