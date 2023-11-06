@@ -1,0 +1,16 @@
+
+.footer .footer-body{
+    color: rgb(216, 232, 247);
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.social{
+    width: 200px;
+    justify-content: space-evenly;
+    display: flex;
+}

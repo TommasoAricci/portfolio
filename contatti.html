@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="assets/stili/header.css"/>
     <link rel="stylesheet" href="assets/stili/style.css"/>
     <link rel="stylesheet" href="assets/stili/contatti.css"/>
+    <link rel="stylesheet" href="assets/stili/footer.css"/>
     <link rel="stylesheet" href="assets/stili/media-queries.css"/>
 
     <link rel="icon" type="image/x-icon" href="assets/img/io-icona.png">
@@ -26,86 +27,93 @@
 </head>
 <body>
 
-    <header>
-        <nav>
-            <input type="checkbox" id="nav-button">
-            <label for="nav-button"><span class="menu-word">MENU</span> <span class="menu-icon">☰</span></label>
-            <ul>
-                <a href="index.html">
-                    <li class="pulsante-header">
-                        <div>CHI SONO</div>
-                    </li>
-                </a>
+    <section>
+        <header>
+            <nav>
+                <input type="checkbox" id="nav-button">
+                <label for="nav-button"><span class="menu-word">MENU</span> <span class="menu-icon">☰</span></label>
+                <ul>
+                    <a href="index.html">
+                        <li class="pulsante-header">
+                            <div>CHI SONO</div>
+                        </li>
+                    </a>
 
-                <a href="il-mio-cv.html">
-                    <li class="pulsante-header">
-                        <div>IL MIO CV</div>
-                    </li>
-                </a>
+                    <a href="il-mio-cv.html">
+                        <li class="pulsante-header">
+                            <div>IL MIO CV</div>
+                        </li>
+                    </a>
 
-                <a href="contatti.html">
-                    <li class="pulsante-header">
-                        <div>CONTATTI</div>
-                    </li>
-                </a>
-            </ul> 
-        </nav>
-    </header>
+                    <a href="contatti.html">
+                        <li class="pulsante-header">
+                            <div>CONTATTI</div>
+                        </li>
+                    </a>
+                </ul> 
+            </nav>
+        </header>
 
-    <div class="contenuto-contatti">
-        <h2>Per qualsiasi cosa, puoi lasciarmi una mail.</h2>
+        <div class="contenuto-contatti">
+            <div class="testo">
+                <h2>NON ESITARE A CONTATTARMI.</h2>
+                <p>Per qualunque informazione o collaborazione puoi copilare il form di contatto, e risponderò il prima possibile.</p>
+            </div>
+            <div class="header-body form">
+                <form action="https://formspree.io/f/xdorjzev" method="post">
+                    <div class="form-nome">
+                    <input id="input-nome" name="input-nome" type="text" placeholder="Nome" autocomplete="off" required>
+                    </div>
+                    <br>
+                    <div class="form-nome">
+                    <input id="input-email" name="input-email" type="email" placeholder="Email" autocomplete="off" required>
+                    </div>
+                    <br>
+                    <div class="form-nome">
+                    <input id="input-tel" name="input-tel" type="text" placeholder="Telefono" autocomplete="off" required>
+                    </div>
+                    <br>
+                    <div class="form-nome">
+                    <textarea id="form-text" name="form-text" placeholder="Scrivi il tuo messaggio" autocomplete="off" required></textarea>
+                    </div>
+                    <button class="pulsante-form"><div>INVIA</div></button>
+                </form>
+            </div>
 
-        <div class="header-body form">
-            <form action="https://formspree.io/f/xdorjzev" method="post">
-                <div class="form-nome">
-                <input id="input-nome" name="input-nome" type="text" placeholder="Nome" autocomplete="off" required>
-                </div>
-                <br>
-                <div class="form-nome">
-                <input id="input-email" name="input-email" type="email" placeholder="Email" autocomplete="off" required>
-                </div>
-                <br>
-                <div class="form-nome">
-                <input id="input-tel" name="input-tel" type="text" placeholder="Telefono" autocomplete="off" required>
-                </div>
-                <br>
-                <div class="form-nome">
-                <textarea id="form-text" name="form-text" placeholder="Scrivi il tuo messaggio" autocomplete="off" required></textarea>
-                </div>
-                <button class="pulsante-form"><div>INVIA</div></button>
-            </form>
+
+
         </div>
+    </section>
+    
 
-
-        <div class="header-body socialcont">
-
-            <h3>Oppure cercami sui social</h3>
-            <br>
-            <br>
-
+    <div class="footer">
+        <div class="footer-body">
+    
+            <div class="copy">
+                <p>Copyright © 2023 Tommaso Aricci</p>
+            </div>
+    
             <div class="social">
                 <div class="pulsante-social">
-                    <a href=""><img src="assets/img/social/facebook.png" alt="tommaso-aricci-facebook" width="100%">
+                    <a href="#"><img src="assets/img/social/facebook.png" alt="tommaso-aricci-facebook" width="30px">
                     </a>
                 </div>
                 <div class="pulsante-social">
-                    <a href=""><img src="assets/img/social/instagram.png" alt="tommaso-aricci-instagram" width="100%">
+                    <a href="#"><img src="assets/img/social/instagram.png" alt="tommaso-aricci-instagram" width="30px">
                     </a>
                 </div>
                 <div class="pulsante-social">
-                    <a href=""><img src="assets/img/social/tiktok.png" alt="tommaso-aricci-tiktok" width="100%">
+                    <a href="#"><img src="assets/img/social/tiktok.png" alt="tommaso-aricci-tiktok" width="30px">
                     </a>
                 </div>
                 <div class="pulsante-social">
-                    <a href=""><img src="assets/img/social/github-mark-white.png" alt="tommaso-aricci-github" width="100%">
+                    <a href="https://github.com/TommasoAricci"><img src="assets/img/social/github-mark-white.png" alt="tommaso-aricci-github" width="30px">
                     </a>
                 </div>
-
+            </div>
+    
         </div>
-
-
-
-
+    
     </div>
 
 

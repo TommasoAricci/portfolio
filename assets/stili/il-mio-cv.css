@@ -45,6 +45,8 @@
     z-index: 9;
 }
 
+/*lavori*/
+
 .link-lavori{
     display: flex;
     align-items: center;
@@ -71,7 +73,12 @@
 .lavori img{
     width: 250px;
     border-radius: 3px;
-    box-shadow: 0px 1px 10px -5px rgba(0, 0, 0, 0.5);;
+    box-shadow: 0px 1px 10px -5px rgba(0, 0, 0, 0.5);
+}
+
+.lavori img:hover{
+    transform: scale(1.03);
+    transition: 0.3s;
 }
 
 .articoli, .medit, .portfolio{
@@ -87,12 +94,15 @@
 }
 
 .immagine{
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .pulsantecont{
     margin-bottom: 50px;
 }
+
+
+
 
 /*le mie skills*/
 
@@ -151,3 +161,5 @@
 .skills img{
     width: 50%;
 }
+
+

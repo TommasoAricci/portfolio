@@ -26,6 +26,7 @@ body{
 
 /*header-titolo*/
 
+
 .nome{
     text-align: center;
 }
@@ -43,6 +44,7 @@ body{
 }
 
 /*Chi sono*/
+
 
 .contenuto .descrizione h2{
     color: orange;
@@ -89,12 +91,12 @@ body{
 
 .pulsante{
     border: 1px solid rgb(216, 232, 247);
-    width: 230px;
-    height: 65px;
+    width: 180px;
+    height: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 200;
+    font-size: 15px;
     font-weight: 900;
     border-radius: 3px;
     color: rgb(216, 232, 247);

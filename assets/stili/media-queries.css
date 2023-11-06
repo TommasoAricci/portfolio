@@ -5,7 +5,8 @@
     .header-body{
         display: block;
         width: 500;
-        }
+    }
+
     .contenuto .pulsante-header{
         width: 300px;
     }
@@ -15,7 +16,8 @@
     }
 
     .pulsante{
-        width: 300px;
+        width: 200px;
+        height: 40px;
     }
 
     .form{
@@ -26,10 +28,6 @@
     .contenuto-contatti h2{
         margin-left: 50px;
         margin-right: 50px;
-    }
-
-    .socialcont{
-        width: 400px;
     }
 
 }
@@ -46,7 +44,8 @@
         }
 
         .pulsante{
-            width: 320px;
+            width: 200px;
+            height: 40px;
         }
 
         .skills{
@@ -59,7 +58,7 @@
 
         .form{
             display: flex;
-            width: 500px;
+            width: 600px;
         }
 
         .form-nome input{
@@ -69,10 +68,6 @@
         .form-nome textarea{
             width: 400px;
             max-width: 400px;
-        }
-
-        .socialcont{
-            width: 400px;
         }
     
 }
@@ -123,7 +118,8 @@
     }
  
     .pulsante{
-        width: 320px;
+        width: 200px;
+        height: 40px;
     }
 
     .skills .titolo{
@@ -178,8 +174,9 @@
     }
 
     .form{
-        display: flex;
-        width: 700px;
+        margin-top: 0;
+        min-width: 500px;
+        max-width: 600px;
     }
 
     .form-nome input{
@@ -191,9 +188,26 @@
         max-width: 400px;
     }
 
-    .socialcont{
-        width: 400px;
+    .contenuto-contatti{
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 120px;
     }
+
+    .contenuto-contatti h2{
+        min-width: 400px;
+        max-width: 400px;
+        line-height: 40px;
+    }
+
+    .contenuto-contatti .testo{
+        min-width: 300px;
+        margin-right: 70px;
+    }
+
+
 
 
 }
