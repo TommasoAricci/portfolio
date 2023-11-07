@@ -2,7 +2,7 @@
 VAI AL SITO ---> [Link](https://tommasoaricci.github.io/progetto-html-css/)
 
 
-<h1>Ciao a tutti e benvenuti sul mio progetto di HTML & CSS di Tommaso Aricci.</h1>
+<h1>Ciao a tutti e benvenuti sul mio progetto di HTML & CSS.</h1>
 
 <h2>In questo progetto ho voluto dimostrare le competenze che ho acquisito in questi due linguaggi durante il corso che sto seguendo.</h2>
 
