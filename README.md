@@ -35,6 +35,6 @@ Ho utilizzato esclusivamente HTML e CSS senza l'aiuto di elementi preimpostati e
 
 <HR>
 
-VAI AL SITO ---> [Link](https://tommasoaricci.github.io/progetto-html-css/)
+[VAI AL SITO](https://tommasoaricci.github.io/progetto-html-css/)
 
 
