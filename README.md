@@ -1,7 +1,3 @@
-
-VAI AL SITO ---> [Link](https://tommasoaricci.github.io/progetto-html-css/)
-
-
 <h1>Ciao a tutti e benvenuti sul mio progetto di HTML & CSS.</h1>
 
 <h2>In questo progetto ho voluto dimostrare le competenze che ho acquisito in questi due linguaggi durante il corso che sto seguendo.</h2>
@@ -36,3 +32,7 @@ Questo sitoweb mi ha messo alla prova. <br> <br>
 Ho cercato di inserire tutto ciò che era necessario ai fini informativi e ho risolto decine di problemi. <br>
 Per questo ho imparato senza dubbio a far fronte ad essi senza farmi sovrastare se qualcosa va storto. Ho capito meglio alcune dinamiche tecniche e mi sono ricreduto su tante cose. <br>
 Ho utilizzato esclusivamente HTML e CSS senza l'aiuto di elementi preimpostati e altri linguaggi di programmazione, e anche per questo motivo, è stata una grande sfida che sono stato contento di riuscire a portare a termine.
+
+VAI AL SITO ---> [Link](https://tommasoaricci.github.io/progetto-html-css/)
+
+
