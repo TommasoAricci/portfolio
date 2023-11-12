@@ -36,13 +36,13 @@
         text-decoration: none;
     }
 
-    .pulsante-header{
+    .header-button{
         color: white;
         cursor: pointer;
         font-weight: 400;
     }
 
-    .pulsante-header div{
+    .header-button div{
         padding-top: 5px;
     }
 
@@ -50,13 +50,13 @@
         text-decoration: none;
     }
 
-    .pulsante-header:hover{
+    .header-button:hover{
         background-color: rgba(255, 255, 255, 0.396);
         border-radius: 3px;
         transition: 0.5s;
     }
 
-    .pulsante-header:active{
+    .header-button:active{
         background-color: rgba(255, 255, 255, 0.073);
         transition: 0.1s;
     }
@@ -99,7 +99,7 @@
             transition: 0.2s;
         }
 
-       .pulsante-header{
+       .header-button{
             width: 400px;
             height: 65px;
             display: flex;
@@ -109,11 +109,11 @@
             border-radius: 3px;
         }
 
-        .pulsante-header:first-child{
+        .header-button:first-child{
             border-top: 1px solid white;
         }
 
-        nav ul a:last-child .pulsante-header{
+        nav ul a:last-child .header-button{
             border-bottom: 1px solid white;
         }
 

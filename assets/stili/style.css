@@ -26,17 +26,17 @@ body{
 /*header-titolo*/
 
 
-.nome{
+.name{
     text-align: center;
 }
 
-.content .nome h1{
+.content .name h1{
     color: orange;
     font-size: 50px;
     font-weight: 400;
 }
 
-.content .nome h2{
+.content .name h2{
     color: rgb(216, 232, 247);
     font-size: 30px;
     font-weight: 100;
@@ -45,7 +45,7 @@ body{
 /*Chi sono*/
 
 
-.content .descrizione h2{
+.content .description h2{
     color: orange;
     font-size: 30px;
     font-weight: 900;
@@ -72,14 +72,14 @@ body{
     width: 90%;
 }
 
-.content .secondo-blocco .primo{
+.content .second-block .first{
     border:none;
     background-color: rgba(216, 232, 247, 0);       /*immagina mia*/
     width: 320px;
     
 }
 
-.content .secondo-blocco img{
+.content .second-block img{
     border-radius: 50%;
     margin-top: -20px;          /*per regolare l'immagine all'interno del header-body che ho reso trasparente*/
     margin-bottom: -24px;
@@ -88,7 +88,7 @@ body{
 
 /*pulsante*/
 
-.pulsante{
+.mainbutton{
     border: 1px solid rgb(216, 232, 247);
     width: 220px;
     height: 35px;
@@ -102,11 +102,11 @@ body{
     cursor: pointer;
 }
 
-.titolo-pulsante{
+.title-button{
     margin-top:4px;
 }
 
-.pulsante:hover{
+.mainbutton:hover{
     background-color: rgba(255, 255, 255, 0.396);
 }
 

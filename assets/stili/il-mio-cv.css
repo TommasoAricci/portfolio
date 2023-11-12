@@ -1,15 +1,15 @@
-.contenuto-cv{
+.content-resume{
     margin-top: 140px;
 }
 
-.contenuto-cv h1{
+.content-resume h1{
     color: orange;
     font-size: 50px;
     font-weight: 400;
     text-align: center;
 }
 
-.contenuto-cv h2{
+.content-resume h2{
     color: orange;
     text-align: center;
     font-size: 30px;
@@ -17,18 +17,18 @@
     margin-bottom: 50px;
 }
 
-.contenuto-cv h3{
+.content-resume h3{
     color: rgb(216, 232, 247);
 }
 
-.contenuto-cv p{
+.content-resume p{
     font-size:18px;
     font-weight: 200;
     line-height: 22px;
     color: rgb(216, 232, 247)
 }
 
-.contenuto-cv .cv-box{
+.content-resume .cv-box{
     position: relative;
     display: flex;
     flex-direction: column;
@@ -38,11 +38,11 @@
     z-index: 10;
 }
 
-.cronologia{
+.cronology{
     position: relative;
 }
 
-.linea{
+.line{
     height: 95%;
     position: absolute;
     left: 50%;
@@ -54,18 +54,18 @@
 
 /*lavori*/
 
-.link-lavori{
+.worklinks{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.lavori a{
+.works a{
     text-decoration: none;
 }
 
-.contenuto-cv .lavori{
+.content-resume .works{
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -73,22 +73,22 @@
     align-items: center;
 }
 
-.cronologia{
+.cronology{
     margin-bottom: 60px;
 }
 
-.lavori img{
+.works img{
     width: 250px;
     border-radius: 3px;
     box-shadow: 0px 1px 10px -5px rgba(0, 0, 0, 0.5);
 }
 
-.lavori img:hover{
+.works img:hover{
     transform: scale(1.03);
     transition: 0.3s;
 }
 
-.articoli, .medit, .portfolio{
+.articles, .medit, .portfolio{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,7 +96,7 @@
     width: 100%;
 }
 
-.terzo-blocco h2{
+.third-block h2{
     margin: 0;
 }
 
@@ -104,7 +104,7 @@
     margin-bottom: 40px;
 }
 
-.pulsantecont{
+.contbutton{
     margin-bottom: 50px;
 }
 
@@ -113,11 +113,11 @@
 
 /*le mie skills*/
 
-.terzo-blocco{
+.third-block{
     margin-bottom: 60px;
 }
 
-.terzo-blocco h2{
+.third-block h2{
     display: block;
     margin: auto;
     text-align: center;
@@ -141,14 +141,14 @@
     width: 100%;
 }
 
-.skills .titolo{
+.skills .title{
     text-align: center;
     margin-top: 20px;
     font-weight: 300;
     color: rgb(216, 232, 247);
 }
 
-.skills .pulsante-skills{
+.skills .skills-button{
     height: 110px;
     width: 130px;
     margin: 6px;
@@ -161,7 +161,7 @@
     flex-direction: column;
 }
 
-.skills .pulsante-skills:hover{
+.skills .skills-button:hover{
     background-color: rgba(255, 255, 255, 0.396);
 }
 

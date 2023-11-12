@@ -7,7 +7,7 @@
         width: 500;
     }
 
-    .content .pulsante-header{
+    .content .header-button{
         width: 300px;
     }
 
@@ -15,7 +15,7 @@
         width: 100%;
     }
 
-    .pulsante{
+    .mainbutton{
         width: 200px;
         height: 40px;
     }
@@ -39,11 +39,11 @@
         width: 700px;
         }
 
-        .content .pulsante-header{
+        .content .header-button{
             width: 300px;
         }
 
-        .pulsante{
+        .mainbutton{
             width: 200px;
             height: 40px;
         }
@@ -61,11 +61,11 @@
             width: 600px;
         }
 
-        .form-nome input{
+        .form-name input{
             width: 400px;
         }
     
-        .form-nome textarea{
+        .form-name textarea{
             width: 400px;
             max-width: 400px;
         }
@@ -81,11 +81,11 @@
 
     /*chi sono*/
 
-    .content .nome h1{
+    .content .name h1{
         font-size: 60px;
     }
 
-    .content .nome h2{
+    .content .name h2{
         font-size: 40px;
     }
 
@@ -94,15 +94,15 @@
         margin-right: 30px;
     }
 
-    .content .secondo-blocco .primo{
+    .content .second-block .first{
         width: 350px;
     }
 
-    .content .pulsante-header{
+    .content .header-button{
         width: 300px;
     }
 
-    .content .secondo-blocco h2{
+    .content .second-block h2{
         font-size:30px;
     }
 
@@ -117,12 +117,12 @@
         width: 600px;
     }
  
-    .pulsante{
+    .mainbutton{
         width: 200px;
         height: 40px;
     }
 
-    .skills .titolo{
+    .skills .title{
         font-size: 20px;
     }
 
@@ -130,25 +130,25 @@
         width:700px
     }
 
-    .content-cv .lavori{
+    .content-cv .works{
         flex-direction: row;
         width: 90%;
     }
 
-    .content-cv .lavori .articoli, .medit{
+    .content-cv .works .articles, .medit{
         margin-left: 15px;
         margin-right: 15px;
     }
 
-    .lavori img{
+    .works img{
         width: 300px;
     }
 
-    .content .terzo-blocco h2{
+    .content .third-block h2{
         font-size: 40px;
     }
 
-    .skills .pulsante-skills{
+    .skills .skills-button{
         width: 160px;
         height: 140px;
         margin-left: 20px;
@@ -159,13 +159,13 @@
         width: 100%;
     }
 
-    .pulsante-skills img{
+    .skills-button img{
         width: 40%;
     }
 
     /*contatti*/
 
-    .content-contatti h2{
+    .contact-content h2{
         font-size: 40px;
     }
 
@@ -179,16 +179,16 @@
         max-width: 600px;
     }
 
-    .form-nome input{
+    .form-name input{
         width: 400px;
     }
 
-    .form-nome textarea{
+    .form-name textarea{
         width: 400px;
         max-width: 400px;
     }
 
-    .content-contatti{
+    .contact-content{
         display: flex;
         align-items: center;
         margin-left: 50px;
@@ -196,13 +196,13 @@
         margin-top: 120px;
     }
 
-    .content-contatti h2{
+    .contact-content h2{
         min-width: 400px;
         max-width: 400px;
         line-height: 45px;
     }
 
-    .content-contatti .testo{
+    .contact-content .testo{
         min-width: 300px;
         margin-right: 70px;
     }
