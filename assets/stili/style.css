@@ -13,7 +13,7 @@ body{
 }
 
 
-.contenuto{
+.content{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,13 +30,13 @@ body{
     text-align: center;
 }
 
-.contenuto .nome h1{
+.content .nome h1{
     color: orange;
     font-size: 50px;
     font-weight: 400;
 }
 
-.contenuto .nome h2{
+.content .nome h2{
     color: rgb(216, 232, 247);
     font-size: 30px;
     font-weight: 100;
@@ -45,14 +45,14 @@ body{
 /*Chi sono*/
 
 
-.contenuto .descrizione h2{
+.content .descrizione h2{
     color: orange;
     font-size: 30px;
     font-weight: 900;
     padding-top: 20px;
 }
 
-.contenuto p{
+.content p{
     font-size:18px;
     font-weight: 200;
     line-height: 22px;
@@ -72,14 +72,14 @@ body{
     width: 90%;
 }
 
-.contenuto .secondo-blocco .primo{
+.content .secondo-blocco .primo{
     border:none;
     background-color: rgba(216, 232, 247, 0);       /*immagina mia*/
     width: 320px;
     
 }
 
-.contenuto .secondo-blocco img{
+.content .secondo-blocco img{
     border-radius: 50%;
     margin-top: -20px;          /*per regolare l'immagine all'interno del header-body che ho reso trasparente*/
     margin-bottom: -24px;
@@ -110,6 +110,6 @@ body{
     background-color: rgba(255, 255, 255, 0.396);
 }
 
-.contenuto a{
+.content a{
     text-decoration: none;
 }
