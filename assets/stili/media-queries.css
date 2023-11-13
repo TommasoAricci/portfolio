@@ -109,11 +109,11 @@
 
     /*cv*/
 
-    .content-cv h2{
+    .content-resume h2{
         font-size: 30px;
     }
 
-    .content-cv .cv-box p{
+    .content-resume .cv-box p{
         width: 600px;
     }
  
@@ -127,21 +127,20 @@
     }
 
     .cv-box{
-        width:700px
+        width:700px;
     }
 
-    .content-cv .works{
+    .content-resume .works{
         flex-direction: row;
-        width: 90%;
     }
 
-    .content-cv .works .articles, .medit{
+    .content-resume .portfolio .articles, .medit{
         margin-left: 15px;
         margin-right: 15px;
     }
 
     .works img{
-        width: 300px;
+        width: 200px;
     }
 
     .content .third-block h2{
