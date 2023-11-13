@@ -2,7 +2,7 @@
 
 <h1>Ciao a tutti e benvenuti sul mio progetto di HTML & CSS.</h1>
 
-<h2>In questo progetto ho voluto dimostrare le competenze che ho acquisito in questi due linguaggi durante il corso che sto seguendo.</h2>
+<h2>In questo progetto ho voluto dimostrare le competenze che ho acquisito fino ad ora durante il corso di Web Developer.</h2>
 
 <h3>Le pagine</h3>
 
