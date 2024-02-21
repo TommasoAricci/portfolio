@@ -58,14 +58,11 @@
 
 /*lavori*/
 
-<<<<<<< HEAD
 .works{
     display: flex;
     flex-wrap: wrap;
 }
 
-=======
->>>>>>> 9a3dcaae8c9f2419e635aa458f53f7c4481085f6
 .worklinks{
     display: flex;
     align-items: center;
@@ -78,11 +75,7 @@
 }
 
 .content-resume .works{
-<<<<<<< HEAD
     width: 100%;
-=======
-    width: 80%;
->>>>>>> 9a3dcaae8c9f2419e635aa458f53f7c4481085f6
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -104,19 +97,11 @@
     transition: 0.3s;
 }
 
-<<<<<<< HEAD
 .articles, .medit, .portfolio, .counter, .quiz{
-=======
-.articles, .medit, .portfolio{
->>>>>>> 9a3dcaae8c9f2419e635aa458f53f7c4481085f6
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-=======
-    width: 100%;
->>>>>>> 9a3dcaae8c9f2419e635aa458f53f7c4481085f6
 }
 
 .third-block h2{

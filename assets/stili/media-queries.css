@@ -131,18 +131,11 @@
     }
 
     .content-resume .works{
-<<<<<<< HEAD
         width: 100%;
         flex-direction: row;
     }
 
     .content-resume .portfolio, .articles, .medit, .counter, .quiz{
-=======
-        flex-direction: row;
-    }
-
-    .content-resume .portfolio .articles, .medit{
->>>>>>> 9a3dcaae8c9f2419e635aa458f53f7c4481085f6
         margin-left: 15px;
         margin-right: 15px;
     }
