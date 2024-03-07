@@ -51,6 +51,8 @@
     border-radius: 3px;
     color: rgb(216, 232, 247);
     margin-bottom: 25px;
+    font-family: Josefin Sans, Roboto;
+
 }
 
 .form-name input::placeholder{
@@ -67,7 +69,8 @@ textarea{
     border-radius: 3px;
     background-color: #216477;
     border: 1px solid rgb(216, 232, 247);
-    color: rgb(216, 232, 247);;
+    color: rgb(216, 232, 247);
+    font-family: Josefin Sans, Roboto;
 }
 
 textarea::placeholder{
