@@ -1,4 +1,4 @@
-[VAI AL SITO](https://tommasoaricci.github.io/portfolio/)
+[VISIT THE WEBSITE](https://tommasoaricci.github.io/portfolio/)
 
 <h1>Hello everyone and welcome to my HTML & CSS project..</h1>
 
