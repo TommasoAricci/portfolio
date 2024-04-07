@@ -1,0 +1,119 @@
+
+/*MOBILE e REGOLE GENERICHE*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Josefin Sans, Roboto;
+}
+
+body{
+    background-color: #216477;
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 140px;
+}
+
+/*header-titolo*/
+
+
+.name{
+    text-align: center;
+}
+
+.content .name h1{
+    color: orange;
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.content .name h2{
+    color: rgb(216, 232, 247);
+    font-size: 30px;
+    font-weight: 100;
+}
+
+/*Chi sono*/
+
+
+.content .description h2{
+    color: orange;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+
+.content p{
+    font-size:18px;
+    font-weight: 200;
+    line-height: 22px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: rgb(216, 232, 247);
+}
+
+.header-body{
+    display: block;
+    margin: auto;
+    background-color: #267287;
+    padding: 20px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 60px;
+    width: 90%;
+}
+
+.content .second-block .first{
+    border:none;
+    background-color: rgba(216, 232, 247, 0);       /*immagina mia*/
+    width: 320px;
+    
+}
+
+.content .second-block img{
+    border-radius: 50%;
+    margin-top: -20px;          /*per regolare l'immagine all'interno del header-body che ho reso trasparente*/
+    margin-bottom: -24px;
+}
+
+.third{
+    margin-bottom: 50px;
+}
+
+/*pulsante*/
+
+.mainbutton{
+    border: 1px solid rgb(216, 232, 247);
+    width: 220px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 900;
+    border-radius: 3px;
+    color: rgb(216, 232, 247);
+    cursor: pointer;
+}
+
+.title-button{
+    margin-top:4px;
+}
+
+.mainbutton:hover{
+    background-color: rgba(255, 255, 255, 0.396);
+}
+
+.content a{
+    text-decoration: none;
+}
