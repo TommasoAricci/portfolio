@@ -97,11 +97,12 @@
     transition: 0.3s;
 }
 
-.articles, .medit, .portfolio, .counter, .quiz, .bookfinder{
+.box{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 }
 
 .third-block h2{
